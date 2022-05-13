@@ -1,0 +1,110 @@
+body{
+    margin:0;
+    padding-top: 800px;
+}
+.profile{
+    width: 250px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    height: 400%;
+}
+#welcome{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 800px;
+    overflow: hidden;
+    color: black;
+    opacity: 0.8;
+    background:linear-gradient(#32e6f0 0%, #0a90c9 100%) ;
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 12;
+}
+.inner{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+h1,h2{
+font-size: 45px;
+line-height: 1.2; 
+font-family: Times ;
+font-weight: 700;
+}
+#name{
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Ephesis', cursive;
+}
+#BIO{
+    text-align: center;
+    padding: 50px;
+   
+    font-size: 40px;
+
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 75px;
+    margin: 8px auto;
+
+}
+.menu{
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 14;
+    cursor: pointer;
+    text-align: center;
+}
+.links{
+    float: left;
+    color: rgb(6, 126, 247);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 900;
+    opacity: .93;
+}
+.links:hover{
+    background-color:darkgoldenrod;
+    font-size:30px; 
+    text-decoration: underline;
+}
+#video,#Writing{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.artical:hover{
+color: aqua;
+}
+html{
+    scroll-behavior: smooth;
+}
+#Contact{
+    text-align:center !important;
+    background: darkturquoise;
+    margin-top: 100px; 
+}
+#Contact iframe{
+    width:100%;
+}
+.Contact1 a{
+color: floralwhite;
+text-shadow: none;
+}
+.Contact1 h3{
+    display: inline;
+}
